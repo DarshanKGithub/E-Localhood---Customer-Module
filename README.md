@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Open this file in VsCode. On the terminal write command npm install it will download all the modules.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
