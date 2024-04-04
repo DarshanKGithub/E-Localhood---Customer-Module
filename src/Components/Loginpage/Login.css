@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.header {
+    position: relative;
+    text-align: center;
+    top: 160px;
+    /* Use percentage for dynamic positioning */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    /* Use percentage for dynamic width */
+    max-width: 500px;
+    /* Set max-width for responsiveness */
+    height: 300px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    border: 2px ;
+    box-shadow: 1px 2px 3px 0.5px rgb(172, 164, 164);
+}
+
+
+p1{
+    position: fixed;
+    color: red;
+    top: 85px;
+    left: 230px;
+    font-size: 10px;
+}
+
+p2{
+    position: fixed;
+    color: red;
+    font-size: 10px;
+    top: 145px;
+    right: 100px;
+}
+
+h1{
+    position: fixed;
+      color: white;
+      font-family: 'Poppins', 'sans-serif';
+      font-size: 20px;
+      top: 10px;
+      left: 200px;
+}
+
+.email-wrd{
+    position: fixed;
+    top: 52px;
+    left: 50px;
+    right: 780px;
+}
+
+.email{
+    color: white;
+}
+
+.email input{
+    position: fixed;
+    top: 60px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    left: 150px;
+    background: transparent;
+   text-align: center;
+   color: white;
+   font-family: sans-serif;
+  border: 1px solid white;
+}
+.email-icon{
+    position: relative;
+    top: -100px;
+    color: white;
+    left: 160px;
+    font-size: 20px;
+
+}
+
+
+.pwd-icon{
+    position: fixed;
+    color: whitesmoke;
+    left: 160px;
+    bottom: 155px;
+    font-size: 20px;
+}
+
+.pwd input{
+    position: fixed;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    left: 150px;
+    background: transparent;
+    text-align: center;
+    color: white;
+    top:120px;
+    font-family: sans-serif;
+    border: 1px solid white;
+}
+
+
+
+.pwd-wrd {
+    position: fixed;
+    color: white;
+    top: 117px;
+    left: 10px;
+    right: 330px;
+}
+
+.visible{
+    position: fixed;
+    color: whitesmoke;
+    left: 420px;
+    top: 120px;
+}
+.not-acc{
+    position: fixed;
+    color: white;
+    top: 230px;
+    right: 170px;
+}
+
+.signin-btn{
+    position: fixed;
+    top: 170px;
+    border-radius: 12px;
+}
+
+.signin-btn:hover{
+    background-color: rebeccapurple;
+    transition: background-color 2s ease-in-out;
+}
+
+
+
+.sign-btn{
+   position: fixed;
+   top: 250px;
+   left: 220px;
+}
+

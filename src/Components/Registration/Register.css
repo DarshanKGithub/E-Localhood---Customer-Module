@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    
+    .wrapper {
+        position: relative;
+        text-align: center;
+        top: 160px;
+        /* Use percentage for dynamic positioning */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 600px;
+        /* Use percentage for dynamic width */
+        max-width: 500%;
+        /* Set max-width for responsiveness */
+        height: 450px;
+        top: 30px;
+        background: transparent;
+        border-radius: 20px;
+        backdrop-filter: blur(20px);
+        border: 2px ;
+        box-shadow: 1px 2px 3px 0.5px rgb(172, 164, 164);
+        color: white;
+            } 
+
+    .customerName{
+        position: fixed;
+        right: 480px;
+    }
+
+    .mobile_no{
+        position: fixed;
+        top: 100px;
+        right: 480px;
+        left: 20px;
+
+    }
+
+    .email{
+        position: fixed;
+        top: 160px;
+        right: 500px;
+        left: 5px;
+    }
+
+    .password{
+        position: fixed;
+        top: 220px;
+        right: 500px;
+        left: 25px;
+    }
+
+    .ConfirmPassword{
+        position: fixed;
+        top: 290px;
+        right: 500px;
+        left: 25px;
+    }
+    
+
+    .customer-name input{
+        position: fixed;
+        background: transparent;
+        border-radius: 10px;
+        width: 300px;
+        text-align: center;
+        color: white;
+        width: 350px;
+        top: 40px;
+        right: 60px;
+    }
+      
+   .phn-no input{
+    position: fixed;
+    background: transparent;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    top: 100px;
+    right: 60px;
+   } 
+
+   .email-name input{
+    position: fixed;
+    background: transparent;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    top: 160px;
+    right: 60px;
+   }
+
+   .pwd-name input{
+    position: fixed;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    top: 225px;
+    right: 60px;
+
+   }
+
+   .pwd-crfm input{
+    position: fixed;
+    background: transparent;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+    text-align: center;
+    top: 300px;
+    right: 60px;
+   }
+
+   .validate{
+    position: fixed;
+    top: 400px;
+    border-radius: 10px;
+   }
+.password-toggle{
+    position: fixed;
+    top: 225px;
+    left: 510px;
+}
+
+.password-toggle1{
+    position: fixed;
+    top: 300px;
+    left: 510px;
+}
+  .err-msg{
+    color: red;
+  }

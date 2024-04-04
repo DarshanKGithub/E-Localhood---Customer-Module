@@ -1,0 +1,16 @@
+.login-btn button {
+    position: absolute;
+    left: 980px; 
+    top: 25px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    width: 60px;
+    color: white;
+
+}
+
+.login-btn button:hover{
+    background-color: aqua;
+    transition: background-color  ease-in;
+}

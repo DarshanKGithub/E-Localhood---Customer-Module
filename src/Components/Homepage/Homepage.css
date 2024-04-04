@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.search-inner {
+  position: relative;
+  width: 500px; /* Adjust width as needed */
+}
+.search-inner input{
+    position: relative;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 10px;
+    left: 320px;
+    color: white;
+}
+
+.search-i{
+    position: absolute;
+    color: white;
+    left: 795px;
+    top: 5px;
+    font-size: 15px;
+    /* background-color: #007bff; */
+    color: white;
+    transform: translateY(10%);
+    /* padding: 10px; */
+    /* border-top-right-radius: 5px; */
+    /* border-bottom-right-radius: 5px; */
+    cursor: pointer;
+     
+    
+}
+
+.suggestions {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 320px;
+  top: 50px;
+ width: 500px;
+  background-color: #f7f7f7;
+  /* border: 1px solid #ccc; */
+  /* border-top: none; */
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 200px; 
+  font-size: 5px;
+  
+}
+
+.suggestion {
+  display: grid;
+  padding: 20px;
+  text-decoration: none;
+  color:black; /* Adjust text color to make it visible */
+ size: 10px;
+}
+
+  .suggestion:hover {
+    background-color: #ddd;
+  }
+  
+  
+.product-card {
+  display: flex;
+  align-items: center;
+}
+
+.product-details {
+  margin-left: 10px;
+}
+
+.product-details h3 {
+  margin: 0;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+  
+  .loading-message,
+  .error-message {
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #a94442;
+    border: 1px solid #f5f4f4;
+    border-radius: 10px;
+    width: 500px;
+    left: 320px;
+  }
+  
+  .selected-product {
+    margin-top: 20px;
+  }
+  
+  .selected-product h2 {
+    margin-bottom: 10px;
+  }
+  
+  .selected-product-image {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  p3{
+    position: absolute;
+    color: red;
+    left: 500px;
+  }
+
+  p3.suggestion-message {
+    position: absolute;
+    color: red;
+    left: 500px;
+  }
+ 
+  .btn1{
+    position: absolute;
+    top: 5px;
+    left: 1000px;
+  }

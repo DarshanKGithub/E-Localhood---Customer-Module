@@ -1,0 +1,145 @@
+.product{
+    position: relative;
+    text-align: center;
+    /* top: 0px; */
+    bottom: -50px;
+    /* Use percentage for dynamic positioning */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1100px;
+    /* Use percentage for dynamic width */
+    /* max-width: 500px; */
+    /* Set max-width for responsiveness */
+    height: 450px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    border: 2px ;
+    box-shadow: 2px 1px 2px 4px rgb(172, 164, 164);
+}
+
+
+
+.title{
+    position: fixed;
+    color: white;
+    top: 20px;
+    left: 50px;
+    /* background-color: black; */
+    
+}
+
+.dis{
+    position: fixed;
+    color: white;
+    /* background-color: black; */
+    top: 120px;
+    left: 50px;
+}
+
+.price{
+    position: fixed;
+    color: white;
+    top: 75px;
+    left: 50px;
+    font-size: 30px;
+    
+    /* background-color: black; */
+}
+
+.price-off{
+    position: fixed;
+    color:red;
+    top: 150px;
+    left: 310px;
+}
+
+.review{
+    position: fixed;
+    color: white;
+    top: 60px;
+    font-size: 10px;
+    left: 80px;
+}
+
+.rating{
+    position: fixed;
+    color: white;
+    border: 1px solid white;
+    top: 58px;
+    width: 25px;
+    left: 50px;
+    font-size: 12px ;
+}
+
+.off{
+    position: fixed;
+    color: white;
+    top: 175px;
+    left: 310px;
+    font-size: 10px;
+
+}
+
+.Cart{
+    position: absolute;
+    top: 300px;
+    background-color:transparent;
+  color: white;
+  border: 2px solid #04AA6D; /* Green */
+}
+
+.buy{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    background-color: transparent;
+  color: white;
+  border: 2px solid #04AA6D; /* Green */
+}
+
+.product-img img{
+    position: absolute;
+
+}
+
+.category{
+    position: fixed;
+    color: white;
+    left: 50px;
+    /* background-color: #04AA6D; */
+    border: 1px  black;
+    border-radius: 10px;
+    font-size: 12px;
+    
+}
+
+.Brand{
+    position: fixed;
+    color: white;
+    font-size: 12px;
+    top:0px;
+    left: 113px;
+}
+
+.discount{
+    position: fixed;
+    color: red;
+    left: 230px;
+    top: 70px;
+}
+
+.view-cart{
+    position: fixed;
+    text-decoration: none;
+    color: white;
+    border: 1px groove #04AA6D;
+    border-radius:10px ;
+    left: 1000px;
+    top: 10px;
+}
+
+.view-cart:hover{
+    background-color: lightgray;
+  transition: background-color 1s ease-in;
+}

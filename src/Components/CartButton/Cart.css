@@ -1,0 +1,17 @@
+.cart-btn button{
+  position: absolute;
+left:900px;
+  top:25px;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  width: 45px;
+  color: white;
+
+}
+
+.cart-btn button:hover{
+    background-color: aqua;
+    transition: background-color  ease-in;
+    
+}

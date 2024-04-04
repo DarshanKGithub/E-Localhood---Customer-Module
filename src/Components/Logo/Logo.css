@@ -1,0 +1,26 @@
+.logo-img{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-img img{
+    position: absolute;
+    width: 50px;
+    top: 16px;
+    left: 32px;
+    bottom: 580px;
+    /* mix-blend-mode:multiply ; */
+    
+    
+}
+
+/* .logo-img .pop-cross{
+    position: relative;
+   top:-472px;
+    left: 775px;
+    font-size: 22px;
+    bottom: 510px;
+
+} */
+

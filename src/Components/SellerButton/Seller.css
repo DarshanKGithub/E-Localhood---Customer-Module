@@ -1,0 +1,15 @@
+.seller-btn button{
+    position: absolute;
+    left: 1060px; 
+    top: 25px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    width: 50px;
+    color: white;
+}
+
+.seller-btn button:hover{
+    background-color: aqua;
+    transition: background-color  ease-in;
+}
