@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79bdada4.css",
+    "main.js": "/static/js/main.b92e04dc.js",
+    "static/media/Bg4.jpg": "/static/media/Bg4.e13db9d9332b8c2696de.jpg",
+    "static/media/elocalhoodlogo.jpg": "/static/media/elocalhoodlogo.fd05e9db5cbac2d512ca.jpg",
+    "index.html": "/index.html",
+    "main.79bdada4.css.map": "/static/css/main.79bdada4.css.map",
+    "main.b92e04dc.js.map": "/static/js/main.b92e04dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79bdada4.css",
+    "static/js/main.b92e04dc.js"
+  ]
+}
